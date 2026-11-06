@@ -30,28 +30,21 @@ add item to a to-do list, update, select and remove from the list.
 
 ### Todo list :
 
-<img src="https://github.com/claykabongok/Todo-REST-API-Spring-Boot/blob/master/readme/todolist.jpg?raw=true"  alt="Demo screen postman">
-
+![Demo screen postman](./readme/todolist.jpg)
 
 ### Add  Item
 
-<img src="https://github.com/claykabongok/Todo-REST-API-Spring-Boot/blob/master/readme/additem.jpg?raw=true"  alt="Demo screen postman">
-
+![Demo screen postman](./readme/additem.jpg)
 
 ### Update item
-<img src="https://github.com/claykabongok/Todo-REST-API-Spring-Boot/blob/master/readme/updateItem.jpg?raw=true"  alt="Demo screen postman">
 
-
-
-
+![Demo screen postman](./readme/updateItem.jpg)
 
 ### Delete item
-<img src="https://github.com/claykabongok/Todo-REST-API-Spring-Boot/blob/master/readme/deleteInvalidId.jpg?raw=true"  alt="Demo screen postman">
 
+![Demo screen postman](./readme/deleteInvalidId.jpg)
 
-
-<img src="https://github.com/claykabongok/Todo-REST-API-Spring-Boot/blob/master/readme/deleteItem.jpg?raw=true"  alt="Demo screen postman">
-
+![Demo screen postman](./readme/deleteItem.jpg)
 
 
 
