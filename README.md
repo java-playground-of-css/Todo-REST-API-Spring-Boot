@@ -14,6 +14,17 @@ add item to a to-do list, update, select and remove from the list.
 * [@Entity](https://spring.io/guides/gs/rest-service/)
 * [CrudRepository](https://docs.spring.io/spring-data/data-commons/docs/1.6.1.RELEASE/reference/html/repositories.html)
 
+### Deploy
+
+```
+docker-compose up --build
+```
+
+#### WARNING
+
+**Not for production !**
+
+Because MySQL connection is not secure !
 
 ### Usage
 * Make sure you have [java JDK](https://www.oracle.com/java/technologies/javase-jdk8-downloads.html) and [Maven](https://maven.apache.org/) installed
