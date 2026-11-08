@@ -14,7 +14,7 @@ add item to a to-do list, update, select and remove from the list.
 * [@Entity](https://spring.io/guides/gs/rest-service/)
 * [CrudRepository](https://docs.spring.io/spring-data/data-commons/docs/1.6.1.RELEASE/reference/html/repositories.html)
 
-### Deploy
+### Deploy only backend
 
 ```
 docker-compose up --build
@@ -25,6 +25,10 @@ docker-compose up --build
 **Not for production !**
 
 Because MySQL connection is not secure !
+
+### Deploy with frontend
+
+Go to the following GitHub repository for more information (documentation only in french) : [docker-playground-of-css/ng-spring-playground-app](https://github.com/docker-playground-of-css/ng-spring-playground-app) !
 
 ### Usage
 * Make sure you have [java JDK](https://www.oracle.com/java/technologies/javase-jdk8-downloads.html) and [Maven](https://maven.apache.org/) installed
