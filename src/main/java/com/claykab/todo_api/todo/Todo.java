@@ -44,19 +44,19 @@ public class Todo {
 
     @FutureOrPresent
     @Column(name = "todo_date")
-    @JsonFormat(shape = JsonFormat.Shape.STRING, pattern = "yyyy-MM-dd")
+    @JsonFormat(shape = JsonFormat.Shape.STRING, pattern = "dd/MM/yyyy")
     @Temporal(TemporalType.DATE)
     private Date todoDate;
 
     @Column(name = "creation_date", updatable = false)
     @Temporal(TemporalType.TIMESTAMP)
-    @JsonFormat(shape = JsonFormat.Shape.STRING,pattern = "yyyy-MM-dd'T'HH:mm:ss" )
+    @JsonFormat(shape = JsonFormat.Shape.STRING,pattern = "dd/MM/yyyy HH:mm:ss" )
     @CreationTimestamp
     private Date creationDate;
 
     @Column(name = "update_date")
     @Temporal(TemporalType.TIMESTAMP)
-    @JsonFormat(shape = JsonFormat.Shape.STRING,pattern = "yyyy-MM-dd'T'HH:mm:ss" )
+    @JsonFormat(shape = JsonFormat.Shape.STRING,pattern = "dd/MM/yyyy HH:mm:ss" )
     @UpdateTimestamp
     private Date updateDate;
 
